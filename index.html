@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Amanda's Portfolio Site</title>
+  </head>
+  <body>
+    <header class="head" id="head">
+      <h1>LUCY LAWLESS</h1>
+      <nav>
+        <ul class="nav">
+          <li><a class="upperNavLink" href="#head">Home</a></li>
+          <li><a class="upperNavLink" href="#portfolioHead">Portfolio</a></li>
+          <li><a class="upperNavLink" href="#skillsHead">Skills</a></li>
+          <li><a class="upperNavLink" href="#contactHead">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="intro">
+        <img
+          class="profilePic"
+          src="responsive-layout-profile.png"
+          alt="pic of amanda"
+        />
+        <p class="introText">
+          Hi! I'm a front-end developer who loves responsive design and css. I
+          recently finished learning front-end web development at Treehouse and
+          am excited to put all my skills to use!
+        </p>
+      </div>
+
+      <div class="container">
+        <h2 id="portfolioHead">PORTFOLIO</h2>
+        <section class="portfolio">
+          <div class="port">
+            <img src="portfolio-1.png" alt="pic of marketing project" />
+            <h3 class="portHead">Marketing Page</h3>
+            <p>
+              This project shows the front page of a marketing website meant for
+              a specific business I'm interested in.
+            </p>
+          </div>
+          <div class="port">
+            <img src="portfolio-2.png" alt="pic of search page project" />
+            <h3 class="portHead">Search Page</h3>
+            <p>
+              This project searches through a specific database to find
+              information that the user is trying to look up.
+            </p>
+          </div>
+          <div class="port">
+            <img src="portfolio-3.png" alt="pic of travel app project" />
+            <h3 class="portHead">Travel App</h3>
+            <p>
+              This project compares travel times based on different
+              transportation methods and tells you the best one.
+            </p>
+          </div>
+          <div class="port">
+            <img src="portfolio-4.png" alt="pic of map project" />
+            <h3 class="portHead">Map of Favorite Spots</h3>
+            <p>
+              This project uses mapping apis to plot points for my favorite
+              spoits in the city for a do-it-yourself walking tour.
+            </p>
+          </div>
+          <div class="port">
+            <img src="portfolio-5.png" alt="pic of photo gallery project" />
+            <h3 class="portHead">Photo Gallery</h3>
+            <p>
+              This project show spictures from a recent trip to the viewer and
+              allows them to easily navigate through photos.
+            </p>
+          </div>
+          <div class="port">
+            <img src="portfolio-6.png" alt="pic of calculator project" />
+            <h3 class="portHead">Calculator</h3>
+            <p>
+              Someone can enter in the numbers they want, and press the big blue
+              button and get the result.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="dots"></div>
+
+      <section class="skills container">
+        <h2 id="skillsHead">SKILLS</h2>
+        <p>
+          Below are the list of languages that I use to create beautiful and
+          functional websites and applications.
+        </p>
+        <img
+          src="languages.png"
+          alt="pic of html, css and javascript"
+          class="languageImg"
+        />
+        <p>
+          I also know Bootstrap and am currently learning more about Python,
+          SQL, Ruby and React.
+        </p>
+      </section>
+    </main>
+
+    <section class="contact">
+      <h3 id="contactHead">CONTACT</h3>
+      <p>
+        If you're interested in chatting or want more information about what
+        I've been working on, I'd love to hear from you!
+      </p>
+      <p><em>Phone:</em> <strong>+1(111)555-1234</strong></p>
+      <p><em>Email:</em> <strong>email@yoursite.com</strong></p>
+    </section>
+
+    <footer class="footer" id="foot">
+      <p>Lucy Lawless</p>
+      <p><a id="backTOP" href="#head">BACK TO TOP</a></p>
+      <nav class="bottom-nav">
+        <ul id="bottomLinks">
+          <li><a href="#head">Home</a></li>
+          <li><a href="#portfolioHead">Portfolio</a></li>
+          <li><a href="#skillsHead">Skills</a></li>
+          <li><a href="#contactHead">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
